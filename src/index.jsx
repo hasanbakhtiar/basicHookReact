@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MovieList from './MovieList';
-import Nav from './Nav';
-import {MovieProvider} from './MovieContext';
-import AddMovies from './AddMovies';
+import MovieList from './context/MovieList';
+import Nav from './context/Nav';
+import {MovieProvider} from './context/MovieContext';
+import AddMovies from './context/AddMovies';
 function App(){
   return(<MovieProvider>
     <Nav />
